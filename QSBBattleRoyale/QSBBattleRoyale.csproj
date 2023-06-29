@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyTitle>QSB Battle Royale</AssemblyTitle>
+    <Product>QSB Battle Royale</Product>
+    <Description>Battle Royale addon for Quantum Space Buddies</Description>
+    <OutputPath Condition="Exists('$(OwmlDir)')">$(OwmlDir)\Mods\_nebula.QSBBattleRoyale</OutputPath>
+    <NoWarn>CS1998;CS0649</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OuterWildsGameLibs" Version="1.1.13.456" />
+    <PackageReference Include="OWML" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

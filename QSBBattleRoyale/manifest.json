@@ -1,0 +1,9 @@
+{
+	"filename": "QSBBattleRoyale.dll",
+	"author": "_nebula",
+	"name": "QSB Battle Royale",
+	"uniqueName": "_nebula.QSBBattleRoyale",
+	"version": "0.1.0",
+	"owmlVersion": "2.9.0",
+	"dependencies": [ "Raicuparta.QuantumSpaceBuddies" ]
+}
